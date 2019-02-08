@@ -1,0 +1,36 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"type": "chrome",
+			"name": "Launch",
+			"request": "launch",
+            "url": "http://localhost:3000",
+            "webRoot": "${workspaceFolder}"
+		},
+		{
+			"name": "Attach",
+			"type": "chrome",
+			"request": "attach",
+            "port": 3000,
+            "url": "http://localhost:3000",
+            "webRoot": "${workspaceFolder}"
+		}
+		,
+		{
+			"type": "firefox",
+			"name": "Launch",
+			"request": "launch",
+            "url": "http://localhost:3000",
+            "webRoot": "${workspaceFolder}"
+		},
+		{
+			"name": "Attach",
+			"type": "firefox",
+			"request": "attach",
+            "port": 3000,
+            "url": "http://localhost:3000",
+            "webRoot": "${workspaceFolder}"
+		}
+	]
+}

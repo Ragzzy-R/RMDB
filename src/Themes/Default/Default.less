@@ -1,0 +1,76 @@
+@import "../../../node_modules/antd/dist/antd.less";
+@import url("https://fonts.googleapis.com/css?family=Rubik:400,700|Ubuntu:400,700");
+
+// @rmdb1: #11143b;
+@rmdb1: #2d2d2d;
+@rmdb2: #ea5d5c;
+@rmdb3: #f26744;
+@rmdb4: #5dbfb2;
+@clean-white: #fafafa;
+// @better-black: rgb(13, 15, 46);
+@better-black: #212121;
+
+//Colors
+@primary-color: @rmdb4;
+
+// Base
+@font-family : "Ubuntu";
+@secondary-font-family: "Rubik";
+// Layout
+
+@layout-sider-background : @rmdb1;
+@layout-trigger-background: @better-black;
+// @layout-body-background : #F3F3F9;
+
+// dark theme
+@menu-dark-color: @clean-white;
+@menu-dark-bg: @rmdb1;
+@menu-dark-arrow-color: @clean-white;
+@menu-dark-submenu-bg: @rmdb1;
+@menu-dark-highlight-color: @clean-white;
+@menu-dark-item-active-bg: @rmdb2;
+
+//Overrides
+
+.tm__row {
+  margin: 2rem;
+}
+.ant-card {
+  box-shadow:0px 0px 30px 5px rgba(0, 0, 0, 0.5) !important;
+  border:none !important;
+  // background-color:#F3F3F9 !important;
+}
+.ant-card-body {
+  padding: 0;
+}
+.ant-menu {
+  font-family: @secondary-font-family;
+}
+.ant-menu-item-active {
+  background-color: @rmdb4 !important;
+}
+
+// .ant-menu-submenu .ant-menu-item-selected {
+//   background-color: @rmdb1 !important;
+// }
+
+.ant-btn-secondary {
+  background-color: @rmdb2;
+  color: @clean-white;
+}
+
+.ant-btn-tertiary {
+  background-color: @rmdb1;
+  color: @clean-white;
+}
+
+.ant-input-group-addon {
+  background-color: #d2d2d2;
+  border: none;
+}
+.ant-layout-content {
+  background:linear-gradient(0deg,rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),
+  url("http://image.tmdb.org/t/p/original/VuukZLgaCrho2Ar8Scl9HtV3yD.jpg");
+  background-size: cover;
+  
+}

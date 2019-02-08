@@ -1,0 +1,26 @@
+{
+    "env": {
+      "browser": true,
+      "es6": true
+    },
+    "parser": "babel-eslint",
+    "extends": ["airbnb", "prettier"],
+    "parserOptions": {
+      "ecmaFeatures": {
+        "jsx": true
+      },
+      "ecmaVersion": 2018,
+      "sourceType": "module"
+    },
+    "plugins": ["react"],
+    "rules": {
+      "indent": ["error", 2],
+      "linebreak-style": ["error", "unix"],
+      "quotes": ["error", "double"],
+      "semi": ["error", "always"],
+      "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+      "class-methods-use-this": "off", //this is a stupid rule. So im turning it off.
+      "react/destructuring-assignment": "off" //switching off for now. Have to enable it in future
+    }
+  }
+  
